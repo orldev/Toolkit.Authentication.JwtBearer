@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <PackageId>Snail.Toolkit.Authentication.JwtBearer</PackageId>
+        <PackageTags>Microsoft.AspNetCore.Authentication.JwtBearer</PackageTags>
+        <Title>Toolkit.Authentication.JwtBearer</Title>
+        <Authors>Toolkit</Authors>
+        <Description>Extension for the framework Microsoft.AspNetCore.Authentication.JwtBearer</Description>
+        <RepositoryUrl>https://github.com/orldev/Toolkit.Authentication.JwtBearer</RepositoryUrl>
+        <Copyright>Toolkit, 2023</Copyright>
+        <PackageProjectUrl>https://github.com/orldev/Toolkit.Authentication.JwtBearer</PackageProjectUrl>
+        <RepositoryType>GitHub</RepositoryType>
+        <!-- SourceLink specific details: https://github.com/dotnet/sourcelink/blob/master/README.md -->
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.5" />
+    </ItemGroup>
+
+</Project>
